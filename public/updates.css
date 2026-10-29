@@ -1,0 +1,19 @@
+.proposal-banner{padding:12px 22px;border-bottom:1px solid #d6e5db;background:#eaf4ed;font-size:11px;color:#396850;line-height:1.7}
+.date-error{font-size:11px;color:#a04d37;line-height:1.6;margin:9px 0 0}
+input[aria-invalid="true"]{border-color:#b9654d;background:#fff9f4}
+.docx-preview-frame{width:100%;min-height:650px;height:75vh;border:1px solid #dce4df;background:white}
+.render-note{font-size:11px;color:#7a8a80;line-height:1.8;margin:12px 0}
+.reference-controls{display:grid;gap:12px;margin:20px 0;padding:16px;border:1px solid #dce4df;border-radius:10px}
+.reference-warning{font-size:12px;color:#8b4c19;line-height:1.6}
+.source-block.uncertain,.candidate.uncertain{border-left:3px solid #c38839;padding-left:12px}
+.ocr-uncertain{background:#fff0b3;text-decoration:underline dotted #a45e16;text-underline-offset:3px}
+#source-canvas{display:block;width:100%;height:auto;border:1px solid #dce4df;background:#fff}
+
+.diff-added,ins{background:#e1f2e6;color:#205f3c}.diff-removed,del{background:#fbe9e6;color:#8d3a30}.diff-added,.diff-removed,.diff-unchanged{white-space:pre-wrap;padding:8px;margin:3px 0}.revision-change{border:1px solid #ddd;padding:12px;margin:8px 0}#task-diff,#book-diff{overflow-wrap:anywhere}#sample-dialog{max-width:850px;width:90vw;border-radius:12px;padding:25px}
+
+/* Status notifications must not block document actions underneath them. */
+.toast{pointer-events:none}
+.preview-actions{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.preview-actions .secondary{padding:7px 10px;white-space:nowrap}
+.writing-controls{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 20px;background:#edf5ef;font-size:11px;line-height:1.6}.writing-controls button{white-space:nowrap}.export-bar>div{flex-wrap:wrap;justify-content:flex-end}#export-review-summary ul{padding-left:20px}#export-review-summary li{margin:8px 0;line-height:1.6}
+@media(max-width:1120px){.preview-header{padding:10px 15px;height:auto;min-height:66px;flex-wrap:wrap}.preview-actions{margin-left:auto}}

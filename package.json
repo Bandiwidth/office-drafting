@@ -1,0 +1,36 @@
+{
+  "name": "office-drafting",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local Windows workspace for office drafting, spreadsheets and PDF review",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bandiwidth/office-drafting.git"
+  },
+  "homepage": "https://github.com/Bandiwidth/office-drafting#readme",
+  "bugs": "https://github.com/Bandiwidth/office-drafting/issues",
+  "scripts": {
+    "start": "node server.mjs",
+    "setup": "node scripts/setup.mjs",
+    "check": "node scripts/check.mjs",
+    "licenses": "node scripts/collect-licenses.mjs"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@napi-rs/canvas": "1.0.11",
+    "@tesseract.js-data/eng": "1.0.0",
+    "@tesseract.js-data/tel": "1.0.0",
+    "docx-preview": "0.3.7",
+    "docxtemplater": "3.71.1",
+    "exceljs": "4.4.0",
+    "jszip": "3.10.1",
+    "pdfjs-dist": "6.4.299",
+    "pizzip": "3.2.0",
+    "tesseract.js": "7.0.0",
+    "xlsx-calc": "0.9.2"
+  }
+}
