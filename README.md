@@ -157,9 +157,9 @@ Before updating, back up, stop the service and keep the previous folder. Set up 
 - **Financial results:** only a bounded formula subset and reviewed trial-balance workflow are supported. Imported workbooks may contain unsupported formulas. This is not full Excel compatibility or an accounting certification; independently review the output.
 - **PDF editing:** PdfCraft 0.13.0 is alpha, with its own save controls. It is not Adobe parity or certified secure redaction. Verify any purported content removal, especially scanned PDFs.
 
-The service binds to the laptop's loopback address. It is designed for one user on one Windows machine, not public hosting or a shared server. See [security guidance](SECURITY.md) before using sensitive documents. Automated checks help with dates, references and protected facts; they cannot guarantee factual or linguistic perfection.
+The service binds to the laptop's loopback address. It is designed for one user on one Windows machine, not public hosting or a shared server. Automated checks help with dates, references and protected facts; they cannot guarantee factual or linguistic perfection.
 
-The security guidance includes a known transitive dependency advisory and the reviewed application paths. Installation readiness is not a clean security audit. Upstream deprecation warnings may appear during setup; review those notes before deployment.
+Installation readiness is not a clean security audit. Dependencies may have known advisories or produce deprecation warnings during setup; review current findings before deployment.
 
 ## Licence
 
